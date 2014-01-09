@@ -53,3 +53,4 @@ $RECYCLE.BIN/
 
 # .lock files in cookbooks
 cookbooks/*/Gemfile.lock
+cookbooks/*/Berksfile.lock

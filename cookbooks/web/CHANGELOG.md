@@ -1,11 +1,11 @@
-main CHANGELOG
-==============
+web CHANGELOG
+=============
 
-This file is used to list changes made in each version of the main cookbook.
+This file is used to list changes made in each version of the web cookbook.
 
 0.1.0
 -----
-- [your_name] - Initial release of main
+- [your_name] - Initial release of web
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
