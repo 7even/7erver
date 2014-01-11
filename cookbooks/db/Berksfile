@@ -1,0 +1,5 @@
+source 'https://api.berkshelf.com'
+
+cookbook 'postgresql', '0.13.0', github: 'phlipper/chef-postgresql'
+
+metadata
