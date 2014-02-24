@@ -8,3 +8,6 @@
 #
 
 include_recipe 'nginx::default'
+
+include_recipe 'ruby_build'
+include_recipe 'rbenv::user'
