@@ -15,4 +15,9 @@ default.rbenv = {
     }
   ]
 }
-# default.ruby_build = { upgrade: true }
+
+default.ruby_build = {
+  upgrade: true,
+  git_url: 'git://github.com/sstephenson/ruby-build.git',
+  git_ref: 'master'
+}
