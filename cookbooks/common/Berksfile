@@ -1,5 +1,6 @@
 source 'https://api.berkshelf.com'
 
 cookbook 'locale-gen'
+cookbook 'sudo'
 
 metadata
