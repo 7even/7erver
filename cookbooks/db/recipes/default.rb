@@ -20,3 +20,9 @@ pg_database 'web' do
   template 'template0'
   locale 'ru_RU.UTF-8'
 end
+
+cookbook_file 'psqlrc' do
+  path '/home/web/.psqlrc'
+  owner 'web'
+  group 'web'
+end
