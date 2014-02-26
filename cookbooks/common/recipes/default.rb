@@ -14,3 +14,5 @@ cookbook_file 'sources.list' do
 end
 
 include_recipe 'sudo'
+
+apt_package 'tree'
