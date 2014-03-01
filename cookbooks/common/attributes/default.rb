@@ -5,3 +5,11 @@ default.localegen.lang = [
 
 default.authorization.sudo.users = %w(web)
 default.authorization.sudo.groups = %w(sudo)
+
+default.oh_my_zsh.users = [
+  {
+    login: 'web',
+    theme: 'robbyrussell',
+    plugins: %w(bundler git gem)
+  }
+]

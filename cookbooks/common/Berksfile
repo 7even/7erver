@@ -2,5 +2,6 @@ source 'https://api.berkshelf.com'
 
 cookbook 'locale-gen'
 cookbook 'sudo'
+cookbook 'oh-my-zsh', github: '7even/oh-my-zsh'
 
 metadata

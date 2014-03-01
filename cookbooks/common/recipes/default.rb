@@ -16,3 +16,5 @@ end
 include_recipe 'sudo'
 
 apt_package 'tree'
+
+include_recipe 'oh-my-zsh'
