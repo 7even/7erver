@@ -9,7 +9,7 @@ default.authorization.sudo.groups = %w(sudo)
 default.oh_my_zsh.users = [
   {
     login: 'web',
-    theme: 'robbyrussell',
+    theme: '7even',
     plugins: %w(bundler git gem)
   }
 ]

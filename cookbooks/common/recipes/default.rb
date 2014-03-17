@@ -18,3 +18,8 @@ include_recipe 'sudo'
 apt_package 'tree'
 
 include_recipe 'oh-my-zsh'
+
+cookbook_file '7even.zsh-theme' do
+  username = node.oh_my_zsh.users.first.login
+  path "/home/#{username}/.oh-my-zsh/themes/7even.zsh-theme"
+end
